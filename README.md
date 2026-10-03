@@ -12,6 +12,13 @@ The objective of this project is to build classification models that predict cus
 
 A key part of this project is the comparison between validation performance and performance on a separately supplied test dataset.
 
+## Project Report
+
+A detailed report covering the full analysis, model evaluation, and dataset shift investigation is available here:
+
+[View the Full Project Report](reports/CustomerChurnMLProjectReport.pdf)
+
+
 ## Dataset
 
 The dataset used in this project is the **Customer Churn Dataset** published by Muhammad Shahid Azeem on Kaggle.
