@@ -52,9 +52,8 @@ customer-churn-prediction/
 │   ├── 01_data_exploration.ipynb
 │   └── 02_modeling.ipynb
 │
-├── app/
-├── models/
-├── src/
+├── reports/
+│   └── CustomerChurnMLProjectReport.pdf
 │
 ├── .gitignore
 ├── requirements.txt
