@@ -206,13 +206,15 @@ notebooks/02_modeling.ipynb
 
 ## Future Improvements
 
-Planned improvements include:
+Potential next steps would focus on improving model reliability rather than deployment:
 
-- Refactoring reusable preprocessing and training logic into Python modules
-- Saving the final machine learning pipeline
-- Building a prediction API using FastAPI
-- Containerizing the application using Docker
-- Adding automated tests and reproducibility checks
+- Obtain a more representative and consistently sampled dataset
+- Investigate the source of the distribution shift between training and test populations
+- Evaluate additional models after resolving the dataset inconsistency
+- Apply probability calibration and threshold analysis if reliable training data becomes available
+- Monitor feature and prediction drift before considering production deployment
+
+Due to the substantial performance degradation on the independent test set, the current models are not considered production-ready.
 
 ## Author
 
